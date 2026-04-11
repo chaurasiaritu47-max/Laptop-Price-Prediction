@@ -15,7 +15,7 @@ import joblib
 
 
 
-df = pd.read_csv(r'D:/Laptop_interface/final_laptop_datascrape.csv', encoding='ISO-8859-1')   
+df = pd.read_csv(r'final_laptop_datascrape.csv', encoding='ISO-8859-1')   
 df.head()
 df.shape
 df.info()
@@ -252,7 +252,7 @@ print(rounded_res)  # Print the result to see the output
 '''
 
 # Save the trained model (assuming your model is stored in the 'pipeline' variable)
-joblib.dump(pipeline, 'D:/Laptop_interface/model_of_prediction.pkl')
+joblib.dump(pipeline, 'model_of_prediction.pkl')
 
 
 
