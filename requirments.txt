@@ -1,8 +1,8 @@
 streamlit
+joblib
+numpy
 pandas
 matplotlib
 seaborn
-numpy
-joblib
 os
 re
