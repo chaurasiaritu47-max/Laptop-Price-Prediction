@@ -423,7 +423,7 @@ def Charts_page():
 
 # Upload Excel file
     # Specify the file path (replace with your file path)
-    file_path = "D:/final_laptop_datascrape.csv"
+    file_path = "final_laptop_datascrape.csv"
 
 # Load the CSV file directly using pandas
     df = pd.read_csv(file_path, encoding='ISO-8859-1')
