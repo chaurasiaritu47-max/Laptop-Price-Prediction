@@ -183,7 +183,7 @@ def laptop_info_page():
 
 
 def home_page():
-    df = pd.read_csv("D:/final_laptop_datascrape.csv")
+    df = pd.read_csv("final_laptop_datascrape.csv")
     #Ram correction
     df['RAM_Size'] = df['RAM_Size'].str.extract('(\d+)')
     df['RAM_Size'] = df['RAM_Size'].replace('Not Available', 0)
