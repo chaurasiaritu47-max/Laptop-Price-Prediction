@@ -7,7 +7,7 @@ import seaborn as sns
 import os
 import re
  # Load the trained model
-model = joblib.load('D:/Laptop_interface/model_of_prediction.pkl')
+model = joblib.load('model_of_prediction.pkl')
 st.set_page_config(page_title="Laptop Price Predictor Model", page_icon="💻", layout="wide")
 # Sidebar for navigation
 st.sidebar.title("Navigation")
